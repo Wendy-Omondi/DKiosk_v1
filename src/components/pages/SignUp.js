@@ -6,7 +6,7 @@ function SignUp () {
     return (
         <>
             <NavbarAll/>
-            <h1 className='sign-up'>DASHBOARD</h1>;
+            <h1 className='sign-up'>DASHBOARD</h1>
         </>
     )
 }

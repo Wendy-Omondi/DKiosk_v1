@@ -6,7 +6,7 @@ function Product () {
     return (
         <>
             <NavbarAll/>
-            <h1 className='product'>PRODUCT</h1>;
+            <h1 className='product'>PRODUCT</h1>
         </>
     )
 }
