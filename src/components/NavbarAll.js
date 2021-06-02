@@ -20,7 +20,7 @@ function NavbarAll() {
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
-        <div className='navbar'>
+        <div className='navbar-all'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                 DKiosk <i className="fab fa-typo3"></i>
             </Link>
