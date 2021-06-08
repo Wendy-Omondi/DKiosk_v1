@@ -66,12 +66,12 @@ export class HomeForm extends Component {
                     </div>
                     <div>
                         <p>Password</p>
-                        <input class="input-container" type='text' value={this.state.Password}
+                        <input class="input-container" type='password' value={this.state.Password}
                         onChange={this.handlePasswordChange}/>
                     </div>
                     <div>
                         <p>Confirm Password</p>
-                        <input class="input-container" type='text' value={this.state.ConfirmPassword}
+                        <input class="input-container" type='password' value={this.state.ConfirmPassword}
                         onChange={this.handleConfirmPasswordChange}/>
                     </div>
                     <div className="hero-btns">
