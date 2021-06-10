@@ -7,7 +7,7 @@ import * as GiIcons from 'react-icons/gi';
 import * as RiIcons from 'react-icons/ri';
 import * as BsIcons from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import '../shortcuts/styles/AdminShortcuts.css'
+import './styles/AdminShortcuts.css'
 
 
 function AdminShortcuts() {

@@ -1,14 +1,6 @@
-import React from 'react';
-import '../../../App.css';
-import NavbarAll from '../../nav_bars/NavbarAll';
-
-function Customers () {
-    return (
-        <>
-            <NavbarAll/>
-            <h1 className='customers'>CUSTOMERS</h1>;
-        </>
-    )
+.table-header-section {
+  background-color: #664d00;
+  height: 68px;
+  font-size: 30px;
+  align-items: center;
 }
-
-export default Customers;

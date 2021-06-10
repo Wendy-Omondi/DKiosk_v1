@@ -1,4 +1,4 @@
-import '../../../../../node_modules/react-vis/dist/style.css'
+import '../../../../node_modules/react-vis/dist/style.css'
 
 import {
   XYPlot,
@@ -41,4 +41,4 @@ const Chart = () => {
   )
 }
 
-export default Chart
+export default Chart;
