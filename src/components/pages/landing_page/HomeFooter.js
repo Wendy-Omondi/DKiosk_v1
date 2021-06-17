@@ -1,5 +1,5 @@
 import React from 'react';
-import '../footers/styles/HomeFooter.css';
+import './styles/HomeFooter.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {

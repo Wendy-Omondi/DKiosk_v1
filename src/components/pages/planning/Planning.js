@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../App.css';
-import NavbarAll from '../../nav_bars/NavbarAll';
+import NavbarAll from '../../nav_bars/NarvbarAll';
 import TodoList from './TodoList';
 import MonthTodoList from './MonthTodoList';
 import './styles/Planning.css';

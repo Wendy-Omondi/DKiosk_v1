@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../Homeforms/styles/HomeForm.css';
-import{ Button } from '../buttons/Button';
+import './styles/HomeForm.css';
+import{ Button } from '../../buttons/Button';
 
 export class HomeForm extends Component {
 
