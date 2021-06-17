@@ -48,7 +48,6 @@ function NavbarAll() {
               );
             })}
           </ul>
-          {Button && <Button buttonStyle='btn--outline'>Profile</Button>}
         </nav>
       </IconContext.Provider>
     </>
