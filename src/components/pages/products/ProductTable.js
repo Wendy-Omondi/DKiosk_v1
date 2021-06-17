@@ -53,9 +53,9 @@ function Row(props) {
         <TableCell component="th" scope="row">
           {row.name}
         </TableCell>
-        <TableCell align="right">{row.qty}</TableCell>
-        <TableCell align="right">{row.supplier}</TableCell>
-        <TableCell align="right">{row.action}</TableCell>
+        <TableCell align="left">{row.qty}</TableCell>
+        <TableCell align="left">{row.supplier}</TableCell>
+        <TableCell align="left">{row.action}</TableCell>
       </TableRow>
       <TableRow>
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
@@ -119,11 +119,11 @@ Row.propTypes = {
 };
 
 const rows = [
-  createData('Equipment', 5, 'xyz'),
-  createData('Stationery', 100, 'abc'),
-  createData('Raw Material', 150, 'idk'),
-  createData('Finished Goods', 20, 'gif'),
-  createData('Work in Progress', 10, 'zip'),
+  createData('Equipment','xyz', 'xyz@gmail.com'),
+  createData('Stationery', 'abc', 'abc@gmail.com'),
+  createData('Raw Material','idk', 'idk@gmail.com'),
+  createData('Finished Goods', 'gif', 'gif@gmail.com'),
+  createData('Work in Progress', 'zip', 'zip@gmail.com'),
 ];
 
 const useStyles = makeStyles({
@@ -158,8 +158,8 @@ export default function CollapsibleTable() {
           <TableRow>
             <TableCell />
             <TableCell>Category</TableCell>
-            <TableCell align="right">Quantity&nbsp;</TableCell>
-            <TableCell align="right">Supplier</TableCell>
+            <TableCell align="left">Supplier Name&nbsp;</TableCell>
+            <TableCell align="left">Suppliier Email</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
