@@ -10,24 +10,15 @@ import {
 
 function HomeFooter() {
   return (
-    <div className='footer-container'>
-      <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              | DKiosk
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
-          <div class='social-container'>
-            <h2>Follow Us</h2>
-            <div calssName="social-icons">
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
-            <FontAwesomeIcon icon={faMedium} size="2x" />
-            <FontAwesomeIcon icon={faFacebook} size="2x" />
-            <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </div>
-          </div>
-          <small class='website-rights'>DKiosk © 2021 We are for you</small>
+    <footer className="footer">
+    <div className="brandsection"> &copy;  Digital Kiosk </div>
+    <div className="SocialSection">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
     </div>
+  </footer>
   );
 }
 
