@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../App.css';
-import '../hero_sections/styles/HomeHero.css';
-import { HomeForm} from '../forms/HomeForm';
+import '../../../App.css';
+import './styles/HomeHero.css';
+import { HomeForm} from './HomeForm';
 
 function HomeHero() {
     

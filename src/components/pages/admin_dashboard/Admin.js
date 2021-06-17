@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../App.css';
-import NavbarAll from '../../nav_bars/NavbarAll';
+import NavbarAll from '../../nav_bars/NarvbarAll';
 import AdminShortcuts from './AdminShortcuts';
 
 function Admin () {

@@ -1,8 +1,8 @@
-import './styes/Dashboard.css'
+import './styles/Dashboard.css'
 import hello from '../../../assets/hello.jpg'
 import Chart from './Chart'
 import { Container, Row, Col } from 'react-bootstrap'
-import NavbarAll from '../../nav_bars/NavbarAll';
+import NavbarAll from '../../nav_bars/NarvbarAll';
 
 const Main = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../App.css';
-import HomeHero from '../../hero_sections/HomeHero';
-import HomeFooter from '../../footers/HomeFooter';
+import HomeHero from './HomeHero';
+import HomeFooter from './HomeFooter';
 import HomeNavbar from '../../nav_bars/HomeNavbar';
 
 function Home () {
