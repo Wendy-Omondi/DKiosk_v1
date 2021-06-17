@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../buttons/Button';
 import '../nav_bars/styles/HomeNavbar.css';
+import * as ImIcons from 'react-icons/im';
 
 function HomeNavbar() {
     const [click, setClick] = useState(false);
@@ -14,11 +15,8 @@ function HomeNavbar() {
             <nav className='navbar'>
                <div className='navbar-container'>
                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                       DKiosk <i className="fab fa-typo3"></i>
+                       <ImIcons.ImLocation /> | DKiosk <i className="fab fa-typo3"></i>
                    </Link>
-                   <div className='menu-icon' onClick={handleClick}>
-                       <i className={click ? 'fa fas-times' : 'fa fas-bars'} />
-                   </div>
                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                        <li className='nave-item'>
                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>

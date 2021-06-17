@@ -6,6 +6,8 @@ import { SidebarData } from './SidebarData';
 import '../nav_bars/styles/NavbarAll.css';
 import { IconContext } from 'react-icons';
 import { Button } from '../buttons/Button';
+import * as ImIcons from 'react-icons/im';
+
 
 function NavbarAll() {
   const [sidebar, setSidebar] = useState(false);
@@ -22,7 +24,7 @@ function NavbarAll() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar-all'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                DKiosk <i className="fab fa-typo3"></i>
+                <ImIcons.ImLocation /> | DKiosk <i className="fab fa-typo3"></i>
             </Link>
             <Link to='#' className='menu-bars'>
                 <FaIcons.FaBars onClick={showSidebar} />
